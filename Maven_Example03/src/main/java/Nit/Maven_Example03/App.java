@@ -11,10 +11,14 @@ public class App
         int k=50;
         int l=60;
        App. mul(k,l);
+       App.sub(k, l);
        
     }
     public static void mul(int k,int l){
     	System.out.println(k*l);
+    }
+    public static void  sub(int k,int l) {
+    	System.out.println(k-l);
     }
 	
 }
